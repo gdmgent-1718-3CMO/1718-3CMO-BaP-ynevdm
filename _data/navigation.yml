@@ -3,7 +3,7 @@
 
 - name: Home
   description: Home
-  # folder: pages/
+  folder: pages/
   permalink: /index 
   # fa-icon: icon-info
 
@@ -21,6 +21,6 @@
 
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
+  folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
