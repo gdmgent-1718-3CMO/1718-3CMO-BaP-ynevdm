@@ -17,16 +17,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $clientcolor-4;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: $clientcolor-2;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
+    color: $clientcolor-3;
 }
 a {
     text-decoration: none;
