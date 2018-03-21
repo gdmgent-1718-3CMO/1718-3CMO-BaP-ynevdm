@@ -1,6 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slash {
+  color: $clientcolor-2;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+.roze {
+  color: $clientcolor-3;
+}
+
+.header {
+  height: 100vh;
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+
+.navbar-toggler-icon {
+  color: $clientcolor-1
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration:  none;
+}
 /* Navigation
 ---------------------------------------------
 */
+
+.navbar {
+  
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.sidebar-nav {
+  padding: 0;
+}
+
 .navbar a {
     border: none;
 }
@@ -9,9 +53,51 @@
   width: 100%;
 }
 
-.navbar {
-  background-color: $mycolor-2;
+.custom-nav-ver {
+  background-color: $mycolor-6;
+  height: 100%
 }
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+#navlogo {
+  background-image: url('images/Logo.svg');
+}
+
+#navlogo:hover {
+  background-image: url('images/Logohover.svg');
+  
+}
+
+.nav-logo {
+  min-height: 150px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+  z-index:1;
+}
+
+.dropdown-item {
+  text-transform: uppercase;
+  color: $clientcolor-6;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: $mycolor-5;
+}
+
 
 /* FOOTER
 ----------------------------------------------
@@ -38,12 +124,14 @@ body {
 footer {
   padding:40px;
   text-align:center;
-    background-color: $mycolor-2;
-    color: $color-white;
+    background-color: $color-grey-1;
+    color: $clientcolor-6;
     a {
-        color: $color-white;
+        color: $clientcolor-1;
+        text-decoration: none;
         &:hover {
-            
+          text-decoration: none;
+          color: $clientcolor-3;
         }
     }
 }
@@ -72,6 +160,85 @@ footer {
   }
 }
 
+.samenwerkinglogo {
+  height: 75px;
+}
 
-/* FONT */
+.logos {
+  margin-bottom: 20px;
+}
 
+
+
+/* KLEURGEBRUIK */
+.kleur {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.kleurwaarden {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#kleur1 {
+  background-color: $clientcolor-2;
+}
+
+#kleur2 {
+  background-color: $clientcolor-4;
+}
+
+#kleur3 {
+  background-color: $clientcolor-1;
+}
+
+#kleur4 {
+  background-color: $clientcolor-3;
+}
+
+#kleur5 {
+  background-color: $clientcolor-5;
+}
+
+#kleur6 {
+  background-color: $clientcolor-6;
+}
+
+.kleur { transition: all 0.4s ease-in-out; }
+.kleur:hover { transform: scale(1.3); }
+
+
+/* LOGO */
+
+#primairlogo {
+  min-height: 150px;
+}
+
+/* ---------------------------------------------------
+    MEDIA QUERIES
+----------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .navbar {
+      position: fixed;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+h1 {
+  font-size: 2.5em;
+}
+}
