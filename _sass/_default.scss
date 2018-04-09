@@ -6,30 +6,27 @@ body {
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
-    color: $clientcolor-6;
+    color: $body-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $myfont-family-title;
     font-weight: $font-weight-bold;
-    text-transform: lowercase;
 }
 
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $clientcolor-1;
+    color: $color-grey-2;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
-    color: $clientcolor-2;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
-    color: $clientcolor-3;
 }
 a {
     text-decoration: none;

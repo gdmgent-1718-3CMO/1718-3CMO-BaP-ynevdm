@@ -14,11 +14,10 @@ $color-black:rgba(0,0,0,1);
 
 // Website
 $mycolor-1:rgba(162,139,119,1);
-$mycolor-2:rgba(113,79,178,1);
+$mycolor-2:rgba(80,69,57,1);
 $mycolor-3:rgba(193,173,121,1);
 $mycolor-4:rgba(147,131,86,1);
-$mycolor-5:rgba(113,79,178,0.7);
-$mycolor-6:rgba(223,216,233,1);
+$mycolor-5:rgba(155,59,29,1);
 
 $body-bg: $color-white;
 $body-color: $color-grey-4;
@@ -26,12 +25,12 @@ $body-link: $mycolor-5;
 
 
 // Client specific
-$clientcolor-1:rgba(113,79,178,1);
-$clientcolor-2:rgba(215,225,0,1);
-$clientcolor-3:rgba(219,22,159,1);
-$clientcolor-4:rgba(63,168,239,1);
-$clientcolor-5:rgba(252,151,50,1);
-$clientcolor-6:rgba(76,76,76,1);
+$clientcolor-1:rgba(120,250,250,1);
+$clientcolor-2:rgba(120,250,250,1);
+$clientcolor-3:rgba(120,250,250,1);
+$clientcolor-4:rgba(120,250,250,1);
+$clientcolor-5:rgba(250,120,120,1);
+
 
 // TYP0GRAPHY
 // -----------------------------
@@ -41,20 +40,11 @@ $clientcolor-6:rgba(76,76,76,1);
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 // Client specific
-@font-face {
-    font-family: 'Blogger Sans';
-    src: url('./Blogger_Sans-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  };
-
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 // type
-$myfont-family-base: 'Roboto', sans-serif;
-$myfont-family-title: 'Blogger Sans', sans-serif;
+$myfont-family-base: 'Raleway', serif;
+$myfont-family-title: $myfont-family-base;
 
 // sizes
 $font-size-base: 16px;
@@ -68,8 +58,8 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Roboto', sans-serif;
-$clientfont-family-title: 'Blogger Sans', sans-serif;
+$clientfont-family-base: 'Raleway', serif;
+$clientfont-family-title: $myfont-family-base;
 
 // sizes
 $client-font-size-base: 16px;

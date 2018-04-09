@@ -4,28 +4,23 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: /index
+  permalink: /index 
   # fa-icon: icon-info
 
-- name: Identiteit
-  description: Identiteit
-  folder: pages/identiteit
-  permalink: /identiteit
+- name: Logo
+  description: Logo
+  folder: pages/logo/
+  permalink: logo/
+  # fa-icon: icon-graduation-cap
 
-
-- name: Toepassingen
-  description: Toepassingen
-  folder: pages/toepassingen
-  permalink: /toepassingen
-
-- name: Downloadpagina
-  description: Downloadpagina
-  # folder: pages/download
-  permalink: /download
+- name: Kleur
+  description: Kleur
+  folder: pages/kleur/
+  permalink: kleur/
+  # fa-icon: icon-info
 
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
-  # folder: stijlgids
+  # folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
-
