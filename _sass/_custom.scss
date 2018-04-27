@@ -885,6 +885,10 @@ div.glyph_range {
   background-position: center center;
   background-size: cover;
   font-size: 1em;
+  &:hover {
+    background-image: url('/1718-3CMO-BaP-ynevdm/images/overzicht/groetenkaartjehover.png');
+    font-size: 1.2em;
+  }
 }
 
 
