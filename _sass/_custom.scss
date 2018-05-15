@@ -891,5 +891,28 @@ div.glyph_range {
   }
 }
 
+.overzichtwebsite {
+  background-image: url('/1718-3CMO-BaP-ynevdm/images/overzicht/website.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-size: 1em;
+  &:hover {
+    background-image: url('/1718-3CMO-BaP-ynevdm/images/overzicht/websitehover.jpg');
+    font-size: 1.2em;
+  }
+}
+
+.overzichtnieuwsbrief {
+  background-image: url('/1718-3CMO-BaP-ynevdm/images/overzicht/nieuwsbrief.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-size: 1em;
+  &:hover {
+    background-image: url('/1718-3CMO-BaP-ynevdm/images/overzicht/nieuwsbriefhover.jpg');
+    font-size: 1.2em;
+  }
 
 
+}
